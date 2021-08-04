@@ -91,7 +91,7 @@ $ yarn start
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/pbpcodes" target="_blank">Pranendu B Pradhan</a>
+Made with :heart: by <a href="https://github.com/priyansh74" target="_blank">Priyansh Jha</a> and <a href="https://github.com/pbpcodes" target="_blank">Pranendu B Pradhan</a>
 
 &#xa0;
 
