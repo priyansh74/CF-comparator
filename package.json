@@ -1,0 +1,27 @@
+{
+  "name": "cf-comparator",
+  "version": "1.0.0",
+  "description": "This is project to help newbies follow steps towards becomeing a master in programming",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyansh74/CF-comparator.git"
+  },
+  "author": "Priyansh and Pbp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priyansh74/CF-comparator/issues"
+  },
+  "homepage": "https://github.com/priyansh74/CF-comparator#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "https": "^1.0.0",
+    "request": "^2.88.2"
+  }
+}
