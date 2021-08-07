@@ -45,8 +45,8 @@
 <br>
 
 ## :dart: About ##
-
-Describe your project
+This project is made for newbie coders to follow the path of a Expert >= coders.
+You get their followed roadmap of problems which they used to become a top competitive programmer, and then you follow the same path as they did. And then practice and learn the same concepts that they learn through that roadmap of problems. 
 
 ## :sparkles: Features ##
 
@@ -60,10 +60,10 @@ The following tools were used in this project:
 
 - [JavaScript](https://www.javascript.com/)
 - [Node.js](https://nodejs.org/en/)
-- [HTML]
-- [CSS]
-- [EJS]
-- [ExpressJS]
+- [HTML](https://html.com/)
+- [CSS] (https://www.w3.org/Style/CSS/Overview.en.html)
+- [EJS] (https://ejs.co/)
+- [ExpressJS] (https://expressjs.com/)
 
 ## :white_check_mark: Requirements ##
 
