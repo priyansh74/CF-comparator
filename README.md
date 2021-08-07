@@ -62,6 +62,8 @@ The following tools were used in this project:
 - [Node.js](https://nodejs.org/en/)
 - [HTML]
 - [CSS]
+- [EJS]
+- [ExpressJS]
 
 ## :white_check_mark: Requirements ##
 
