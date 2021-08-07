@@ -11,8 +11,6 @@
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/pbpcodes/cf-comparator?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/pbpcodes/cf-comparator?color=56BEB8">
-
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/pbpcodes/cf-comparator?color=56BEB8">
 
   <img alt="License" src="https://img.shields.io/github/license/pbpcodes/cf-comparator?color=56BEB8">
@@ -26,7 +24,7 @@
 
 <!-- Status -->
 
-<!-- <h4 align="center"> 
+ <h4 align="center"> 
 	🚧  CF Comparator 🚀 Under construction...  🚧
 </h4> 
 
