@@ -16,14 +16,6 @@ body{
     font-family: 'Patua One', cursive;
   }
   
-  header {
-    background:#27363f;
-    width:100%;
-    padding:40px 0;
-    color:white;
-    text-align:center;
-  }
-  
   a {
     text-decoration:none;
     color:inherit;
