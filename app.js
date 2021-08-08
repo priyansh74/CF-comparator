@@ -9,13 +9,18 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static("public"));
 let data1 = '';
 let problem = [];
-
+/*
 app.get("/", function(req,res){
 
   res.render("index.ejs", {
     welcome: problem
     });
+});*/
+app.get("/",function(req,res){
+
+  res.render("index.ejs");
 });
+
 
 
 app.post("/",function(req,res){
