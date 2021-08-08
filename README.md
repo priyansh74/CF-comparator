@@ -11,8 +11,6 @@
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/pbpcodes/cf-comparator?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/pbpcodes/cf-comparator?color=56BEB8">
-
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/pbpcodes/cf-comparator?color=56BEB8">
 
   <img alt="License" src="https://img.shields.io/github/license/pbpcodes/cf-comparator?color=56BEB8">
@@ -26,7 +24,7 @@
 
 <!-- Status -->
 
-<!-- <h4 align="center"> 
+ <h4 align="center"> 
 	🚧  CF Comparator 🚀 Under construction...  🚧
 </h4> 
 
@@ -45,8 +43,8 @@
 <br>
 
 ## :dart: About ##
-
-Describe your project
+This project is made for newbie coders to follow the path of a Expert >= coders.
+You get their followed roadmap of problems which they used to become a top competitive programmer, and then you follow the same path as they did. And then practice and learn the same concepts that they learn through that roadmap of problems. 
 
 ## :sparkles: Features ##
 
@@ -60,8 +58,10 @@ The following tools were used in this project:
 
 - [JavaScript](https://www.javascript.com/)
 - [Node.js](https://nodejs.org/en/)
-- [HTML]
-- [CSS]
+- [HTML](https://html.com/)
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+- [EJS](https://ejs.co/)
+- [ExpressJS](https://expressjs.com/)
 
 ## :white_check_mark: Requirements ##
 
