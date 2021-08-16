@@ -5,16 +5,29 @@ body{
     margin-left: 25%;
     margin-top: 20%;
 }
+* {
+  box-sizing: border-box;
+}
 
 body{
     margin:0;
     padding:0;
     font-family: 'Roboto', sans-serif;
+    background: white; /*body background*/
+    min-width:320px;
   }
   
   h1 {
     font-family: 'Patua One', cursive;
   }
+  
+h2 {
+  text-align: center;
+  margin: 50px 0;
+  color: #957DAD;
+  font-size: 47px;
+  font-family: 'Quicksand', sans-serif;
+}
   
   a {
     text-decoration:none;
@@ -22,7 +35,7 @@ body{
   }
   
   nav ul {
-    background-color:#446274;
+    background-color:#957DAD;
     overflow:hidden;
     color:white;
     padding:0;
@@ -41,7 +54,7 @@ body{
   }
   
   nav ul li:hover {
-    background-color:#718e9e;
+    background-color:#75509b;
   }
   
   section {
@@ -54,7 +67,7 @@ body{
   
     .handle {
       width:100%;
-      background: #446274;
+      background: #957DAD;
       text-align:left;
       box-sizing:border-box;
       padding:15px 10px;
@@ -62,7 +75,142 @@ body{
       color:white;
       display:none;
     }
+
+   /*SCSS*/
+
+   form {
+    padding: 0 10%;
+ }
+  form section {
+    width: calc(50% - 40px);
+    padding: 20px;
+    background: #a17dc7;
+    margin: 20px;
+    border-radius: 5px;
+ }
+  form section.left {
+    float: left;
+ }
+  form section.right {
+    float: right;
+ }
+  form section .input-container {
+    padding: 10px;
+ }
+  form section .input-container label {
+    display: block;
+    margin-bottom: 4px;
+    color: white;
+    font-size: 16px;
+    text-shadow: 0px 2px 1px #a52084;
+    font-family: 'Quicksand', sans-serif;
+ }
+  form section .input-container input, form section .input-container textarea {
+    width: 100%;
+    padding: 5px 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background: white;
+    box-shadow: 0 2px 0px #FEC8D8;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    color: #757575;
+ }
+  form section .input-container input:focus, form section .input-container textarea:focus {
+    outline: none;
+    background: white;
+ }
+  form section .input-container textarea {
+    height: 122px;
+    padding: 15px 10px;
+    resize: none;
+ }
+  form .send-container {
+    float: right;
+    width: 100%;
+    text-align: right;
+    margin-right: 20px;
+ }
+ form .send-container button{
+   background-color: #a17dc7;
   
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background:#a17dc7; /*rgb(145, 92, 182);*/
+    padding: 15px 40px;
+    border:none;
+    border-radius: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+ }
+ form .send-container button:hover{
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 25px #75509b;
+  
+ }
+  form .send-container input {
+    background: #FEC8D8;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+ }
+  form .send-container input:hover {
+    background: #FEC8D8;
+ }
+  form:after {
+    content: "";
+    display: block;
+    clear: both;
+ }
+  @media (max-width: 992px) {
+    form {
+      padding: 0 5%;
+   }
+ }
+  @media (max-width: 768px) {
+    form {
+      margin-bottom: 50px;
+   }
+    form section {
+      width: 100%;
+      margin: 0;
+   }
+    form section.left {
+      margin-bottom: -30px;
+   }
+    form .send-container {
+      margin-right: 0;
+      margin-top: 15px;
+   }
+    form .send-container input {
+      width: 100%;
+   }
+ }
+  
+
+
+
+
+
+
+
+   /*SCSS*/
+  
+
+
+  
+  
+    @media(max-width:540px){
+      h2{
+      font-size: 28px;
+    margin: 30px 0;
+      }
+  }
   @media screen and (max-width:580px){
     
     nav ul {
