@@ -25,7 +25,12 @@ app.get("/",function(req,res){
   res.render("index.ejs");
 });
 
-
+app.get("/display",function(req,res){
+  res.render("display.ejs");
+});
+app.get("/about",function(req,res){
+  res.render("about.ejs");
+});
 
 app.post("/",function(req,res){
   
@@ -62,6 +67,7 @@ app.post("/",function(req,res){
         }
     });
    console.log(uniqueCandidate1.length); //ab mreko distict krna hai.
+  
   });
 }).on("error", (err) => {
   console.log("Error: " + err.message);
@@ -102,7 +108,7 @@ console.log(uniqueCandidate2.length);
 
 
 
-res.redirect("/"); 
+res.redirect("/display"); 
 
 })
 
